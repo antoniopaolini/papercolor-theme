@@ -159,7 +159,7 @@ fun! s:register_default_theme()
         \       'matchedpopupmenu_fg' : ['#87d700', '112'],
         \       'search_fg' : ['#000000', '16'],
         \       'search_bg' : ['#00875f', '29'],
-        \       'incsearch_fg' : ['#00875f', '29'],
+        \       'incsearch_fg' : ['#ffff5f', '227'],
         \       'incsearch_bg' : ['#000000', '16'],
         \       'linenumber_fg' : ['#585858', '240'],
         \       'linenumber_bg' : ['#1c1c1c', '234'],
