@@ -66,8 +66,8 @@ fun! s:register_default_theme()
         \       'matchedpopupmenu_fg' : ['#008700', '28'],
         \       'search_fg' : ['#444444', '238'],
         \       'search_bg' : ['#ffff5f', '227'],
-        \       'incsearch_fg' : ['#ffff5f', '227'],
-        \       'incsearch_bg' : ['#444444', '238'],
+        \       'incsearch_fg' : ['#ff8700', '208'],
+        \       'incsearch_bg' : ['#ffff5f', '227'],
         \       'linenumber_fg' : ['#b2b2b2', '249'],
         \       'linenumber_bg' : ['#eeeeee', '255'],
         \       'vertsplit_fg' : ['#005f87', '24'],
@@ -1168,6 +1168,7 @@ fun! s:apply_syntax_highlightings()
   exec 'hi SpecialKey' . s:fg_nontext
   exec 'hi Search' . s:fg_search_fg . s:bg_search_bg
   exec 'hi IncSearch' . s:fg_incsearch_fg . s:bg_incsearch_bg
+  exec 'hi! link CurSearch IncSearch'
   exec 'hi StatusLine' . s:fg_statusline_active_bg . s:bg_statusline_active_fg
   exec 'hi StatusLineNC' . s:fg_statusline_inactive_bg . s:bg_statusline_inactive_fg
   exec 'hi StatusLineTerm' . s:fg_statusline_active_bg . s:bg_statusline_active_fg
