@@ -1,9 +1,9 @@
 " Theme: PaperColor
-" Author: Nikyle Nguyen <NLKNguyen@MSN.com>
+" Authors: Antonio Paolini, Nikyle Nguyen <NLKNguyen@MSN.com> 
 " License: MIT
-" Source: http://github.com/NLKNguyen/papercolor-theme
+" Source: https://github.com/antoniopaolini/papercolor-theme
 
-let s:version = '0.9.x'
+let s:version = '0.9.9'
 
 " Note on navigating this source code:
 " - Use folding feature to collapse/uncollapse blocks of marked code
